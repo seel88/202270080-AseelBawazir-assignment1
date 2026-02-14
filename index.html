@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aseel Bawazir | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container nav-flex">
+            <div class="logo">Aseel <span>Bawazir</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">
+                        <span id="theme-icon">🌙</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container about-text">
+            <h1 id="greeting">Hi, I'm Aseel Bawazir</h1>
+            <p class="tagline">Junior Software Engineering Student @ KFUPM | GPA 3.3+</p>
+            <p class="intro-text">
+                I am a Junior Software Engineering student at King Fahd University of Petroleum & Minerals. 
+                I recently completed the Fintech Summer Sessions with Fintech Saudi and leadership 
+                training at the Al Fozan Academy, achieving high marks in technical documentation and engineering logic.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2>Featured Academic Work</h2>
+            <div class="project-grid">
+                
+                <div class="project-card">
+                    <div class="img-container">
+                        <img src="assets/images/ICS326.png" alt="SWE 326 Coverage Report">
+                    </div>
+                    <div class="card-body">
+                        <span class="tag">SWE 326</span>
+                        <h3>Program Testing & Coverage</h3>
+                        <p>Analyzed bzip2 using AFL++ fuzzing campaigns, achieving 45.9% line coverage and 51.9% function coverage.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="img-container">
+                        <img src="assets/images/ICS321.png" alt="ICS 321 EER Diagram">
+                    </div>
+                    <div class="card-body">
+                        <span class="tag">ICS 321</span>
+                        <h3>Event Management System</h3>
+                        <p>Responsible for the Conceptual Design (EER Diagram) and Logical Mapping for a BCNF-normalized database system.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <p>Node.js, ExpressJS, HTML5, CSS3, JavaScript.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Database Management</h3>
+                    <p>Relational Schema Design, SQL, and Boyce-Codd Normal Form (BCNF).</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Security & QA</h3>
+                    <p>Fuzzing (AFL++), Software Testing, and Cryptography (RSA).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Aseel Bawazir | Software Engineering @ KFUPM</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
